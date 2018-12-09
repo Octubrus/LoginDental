@@ -6,6 +6,8 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { MatCardModule } from '@angular/material/card';
+
 
 import { AppComponent } from './app.component';
 import { HeroComponent } from './hero/hero.component';
@@ -28,7 +30,8 @@ import { PricingComponent } from './pricing/pricing.component';
     MatSidenavModule,
     MatListModule,
     MatIconModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
